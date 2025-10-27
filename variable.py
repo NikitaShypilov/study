@@ -18,6 +18,9 @@ elif any(ch in string.punctuation.replace("_", "") or ch.isspace() for ch in nam
 elif name.count("_") > 1:
     print(False)
 
+elif "__" in name:
+    print(False)
+
 elif not name:
     print(False)
 
