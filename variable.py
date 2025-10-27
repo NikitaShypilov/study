@@ -1,6 +1,7 @@
 import string
 import keyword
 
+
 name = input("Input name of variable: ")
 
 if name in keyword.kwlist:
